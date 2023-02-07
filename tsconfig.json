@@ -1,11 +1,12 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "esModuleInterop": true,
-        "target": "ESNext",
-        "module": "ES2020",
-        "moduleResolution": "node",
-        "sourceMap": true
-    },
-    "include": ["src"]
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
 }
